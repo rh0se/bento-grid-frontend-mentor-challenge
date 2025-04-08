@@ -1,77 +1,52 @@
-# Frontend Mentor - Bento grid solution
+# 🧩 Frontend Mentor - Bento Grid Layout Solution
 
-This is a solution to the [Bento grid challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/bento-grid-RMydElrlOj). Frontend Mentor challenges help you improve your coding skills by building realistic projects.
+This is my solution to a bento grid challenge, heavily inspired by [Kevin Powell’s tutorial](https://www.youtube.com/watch?v=7nJ3SV0Vybk). The project showcases a responsive layout using CSS Grid, `grid-template-areas`, and a combination of Tailwind CSS with custom properties.
 
-## Table of contents
+## 📸 Screenshot
 
-- [Overview](#overview)
-  - [The challenge](#the-challenge)
-  - [Screenshot](#screenshot)
-  - [Links](#links)
-- [My process](#my-process)
-  - [Built with](#built-with)
-  - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
-  - [Useful resources](#useful-resources)
-- [Author](#author)
-- [Acknowledgments](#acknowledgments)
+![Bento Grid Screenshot](./assets/images/Screenshot.png)
 
-## Overview
+## 🚀 Live Site
 
-### The challenge
+[View Live](https://your-deployment-link.com)
 
-Users should be able to:
+---
 
-- View the optimal layout for the interface depending on their device's screen size
+## 🛠️ Built With
 
-### Screenshot
+- HTML5
+- Tailwind CSS
+- Custom CSS with `@layer`
+- CSS Grid & `grid-template-areas`
+- Responsive Design
 
-![](./screenshot.jpg)
+---
 
-### Links
+## ✨ What I Learned
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- **Using `@layer` in Tailwind:** I learned how to write custom base, layout, and utility styles within Tailwind’s architecture using the `@layer` directive.
+- **Customizing Tailwind with CSS Variables:** I implemented a design system using CSS custom properties (colors, spacing, font sizes) to keep things consistent and scalable.
+- **Advanced CSS Grid Layouts:** The use of `grid-template-areas` allowed me to create complex responsive layouts in a clean and readable way.
+- **Hybrid Styling Approach:** This project taught me how to balance Tailwind utility classes with custom CSS for more flexible design control.
 
-## My process
+---
 
-### Built with
+## 🔧 Continued Development
 
-- Semantic HTML5 markup
-- CSS custom properties
-- Flexbox
-- CSS Grid
-- Mobile-first workflow
-- [React](https://reactjs.org/) - JS library
-- [Next.js](https://nextjs.org/) - React framework
-- [Styled Components](https://styled-components.com/) - For styles
+- I want to explore more ways of combining custom media queries with Tailwind's responsive utilities.
+- I plan to use `@layer` more often in future projects for managing layout-specific styles cleanly.
+- I'll practice implementing other creative grid layouts and enhance my grasp of visual hierarchy and spacing.
 
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+---
 
-### What I learned
+## 📚 Useful Resources
 
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
+- [🎥 Kevin Powell's Bento Grid Tutorial](https://www.youtube.com/watch?v=7nJ3SV0Vybk) – The main inspiration behind this project.
+- [📘 Tailwind CSS Documentation](https://tailwindcss.com/docs) – For understanding `@layer`, utility classes, and customization options.
+- [🎨 CSS Grid Generator](https://cssgrid-generator.netlify.app/) – Helpful tool for visualizing grid-template-areas.
+- [📖 MDN – CSS Variables Guide](https://developer.mozilla.org/en-US/docs/Web/CSS/Using_CSS_custom_properties) – In-depth resource on writing and using custom properties.
 
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-
-```js
-const proudOfThisFunc = () => {
-  console.log("🎉");
-};
-```
-
-### Continued development
-
-### Useful resources
-
-- [Example resource 1](https://www.example.com) - This helped me for XYZ reason. I really liked this pattern and will use it going forward.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+---
 
 ## Author
 
@@ -79,8 +54,9 @@ const proudOfThisFunc = () => {
 - Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
 - Twitter - [@yourusername](https://www.twitter.com/yourusername)
 
-## Acknowledgments
+---
 
-This is where you can give a hat tip to anyone who helped you out on this project. Perhaps you worked in a team or got some inspiration from someone else's solution. This is the perfect place to give them some credit.
+## 🤝 Acknowledgements
 
-**Note: Delete this note and edit this section's content as necessary. If you completed this challenge by yourself, feel free to delete this section entirely.**
+- Thanks to **Kevin Powell** for the brilliant walkthrough and teaching style.
+- Inspired by a **Frontend Mentor** design pattern and adapted for learning purposes.
