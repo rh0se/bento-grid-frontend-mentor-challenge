@@ -8,7 +8,7 @@ This is my solution to a bento grid challenge, heavily inspired by [Kevin Powell
 
 ## 🚀 Live Site
 
-[View Live](https://your-deployment-link.com)
+[View Live](https://rh0se.github.io/bento-grid-frontend-mentor-challenge/)
 
 ---
 
